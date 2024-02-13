@@ -1,0 +1,62 @@
+https://docs.google.com/presentation/d/1dOaL4yd9KuTMOtlsU70mJ8lIIwq5D7waE7kibISTKiE/edit?usp=sharing
+
+아래 요구사항을 만족하는 서버를 작성해주세요 
+
+'POST/foods': 음식이름을 받아서 음식데이터를 생성해주세요
+'GET/foods': 현재 저장된 모든 음식을 반환해주세요
+단, 데이터는 식 데이터 배열을 갖는 프로바이더를 구현하여 처리해주세요
+
+우리의 목표였던 서버 만들기에서 한가지 과제를 더 주셨다.
+
+두가지 목표 내에서 어떤 구성이 필요한지 먼저 구상해본다
+
+1.'POST/foods'
+음식이름
+*그냥 저장만 해두면 되는 일이지
+
+2.'GET/foods'
+저장된 음식이름 
+*가져와서 리턴을 해야할 것 아니야
+
+오잉 별거 없네
+
+그냥 정말 post와 get만 해주면 된다
+
+요청 처리에는 다음과 같은 과정이 필요한데
+
+
+Incoming request
+Middleware
+2.1. Globally bound middleware
+2.2. Module bound middleware
+Guards
+3.1 Global guards
+3.2 Controller guards
+3.3 Route guards
+Interceptors (pre-controller)
+4.1 Global interceptors
+4.2 Controller interceptors
+4.3 Route interceptors
+Pipes
+5.1 Global pipes
+5.2 Controller pipes
+5.3 Route pipes
+5.4 Route parameter pipes
+Controller (method handler)
+Service (if exists)
+Interceptors (post-request)
+8.1 Route interceptor
+8.2 Controller interceptor
+8.3 Global interceptor
+Exception filters
+9.1 route
+9.2 controller
+9.3 global
+Server response
+
+지금 이 과제의 과정은 아마 8번 이후로의 순서 일것이다>> 추측
+질문을 해보도록 하자
+
+아 복습이 필요하다 과제를 못하겠다!!!
+
+
