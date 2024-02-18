@@ -2,6 +2,8 @@
 
 https://docs.google.com/presentation/d/1mI6incZcqdAwZI8-xTW-lNVIgwfjP5PupFDSUnKoMrE/edit#slide=id.g2ba1ccb283d_0_80
 
+https://www.linkedin.com/pulse/susc-nestjs-study-5%25EC%25A3%25BC%25EC%25B0%25A8-%25ED%2586%25A0%25EC%259A%2594%25EC%259D%25BC-%25EC%259E%25A5%25EC%2598%2588%25EB%25A0%25B9-%25EC%259E%25AC%25ED%2595%2599-%25EC%25BB%25B4%25ED%2593%25A8%25ED%2584%25B0%25EA%25B3%25B5%25ED%2595%2599%25EB%25B6%2580--uaffc/
+
 해시 목록들을 레인보우 테이블을 통해 확인할 수 있는데 이 테이블은 해시 함수를 만들어준다. 
 문제점 : 흔히 사용되는 비밀번호들은 크랙스테이션에 돌리면 바로 걸리게 된다 > 솔트를 쳐줘야한다. 버려지는 요소들을 무작위로 착착 뿌려주는 것이다.
 또는 해시 함수를 여러 번 돌리면(레이보우 테이블을) 안 뚫린다! 
